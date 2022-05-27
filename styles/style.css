@@ -1,0 +1,150 @@
+.header{
+    height: 100px;
+    background-color: #7FFFD4;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.hard_text{
+    font-size: 20px;
+    font-weight: 800;
+    margin-right: 20px;
+}
+
+.actions{
+    background-color: #7FFFD4;
+    border: none;
+}
+
+form{
+    display: flex;
+}
+textarea{
+    resize: none;
+}
+
+.upform{
+    display: flex;
+    align-items: flex-start;
+}
+
+.left{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+label{
+    margin: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+label:not(.move):not(.sub){
+    font-weight: bold;
+}
+
+p{
+    font-weight: bold;  
+}
+.required{
+    margin-left: -85px;
+    color: red;
+}
+
+.web{
+    display: flex;
+    flex-direction: column;
+}
+
+.sub{
+    margin-left: 200px;
+    font-weight: 100;
+
+}
+
+#first-name{
+    width: 255px;
+}
+
+#last-name{
+    width: 255px;
+}
+
+#city{
+    width: 255px;
+}
+
+#state{
+    width: 263px;
+}
+
+#zip{
+    width: 255px;
+}
+
+#home-phone{
+    width: 155px;
+    margin-right: 100px;
+}
+
+#work-phone{
+    width: 255px;
+}
+
+#fax{
+    width: 155px;
+    margin-right: 100px;
+}
+
+#url{
+    margin-left: 80px;
+}
+
+#link-name{
+    margin-right: -20px;
+}
+
+.right{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.ckeck{
+    display: flex;
+    width: 100px;
+}
+
+.right div{
+    display: flex;
+    flex-direction: column;
+}
+
+.move{
+    margin: 5px 300px;
+    width: 100px;
+}
+
+.buttons{
+    position: absolute;
+    margin-top: 950px;
+    margin-left: 500px;
+    margin-bottom: 20px;
+}
+
+.finish{
+    width: 100px;
+    height: 25px;
+    background-color: #adff2f;;
+}
+
+.collor{
+    height: 70px;
+    background-color: #C0C0C0;
+}
